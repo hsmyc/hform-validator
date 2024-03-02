@@ -6,14 +6,14 @@
 <li><strong>Lightweight &amp; Fast:</strong> Optimized for performance, ensuring minimal overhead.</li>
 <li><strong>Easy to Integrate:</strong> Simple setup process for quick integration into your project.</li>
 </ul>
-<a id="md:installation" class="tsd-anchor"></a><h2><a href="#md:installation">Installation</a></h2><p>Install <code>hform-Validator</code> using npm:</p>
-<pre><code class="language-bash"><span class="hl-0">npm</span><span class="hl-1"> </span><span class="hl-2">install</span><span class="hl-1"> </span><span class="hl-2">hform-Validator</span>
+<a id="md:installation" class="tsd-anchor"></a><h2><a href="#md:installation">Installation</a></h2><p>Install <code>hform-validator</code> using npm:</p>
+<pre><code class="language-bash"><span class="hl-0">npm</span><span class="hl-1"> </span><span class="hl-2">install</span><span class="hl-1"> </span><span class="hl-2">hform-validator</span>
 </code><button>Copy</button></pre>
 <p>Or using yarn:</p>
-<pre><code class="language-bash"><span class="hl-0">yarn</span><span class="hl-1"> </span><span class="hl-2">add</span><span class="hl-1"> </span><span class="hl-2">hform-Validator</span>
+<pre><code class="language-bash"><span class="hl-0">yarn</span><span class="hl-1"> </span><span class="hl-2">add</span><span class="hl-1"> </span><span class="hl-2">hform-validator</span>
 </code><button>Copy</button></pre>
 <a id="md:getting-started" class="tsd-anchor"></a><h2><a href="#md:getting-started">Getting Started</a></h2><a id="md:importing-the-package" class="tsd-anchor"></a><h3><a href="#md:importing-the-package">Importing the Package</a></h3><p>Import <code>hform-Validator</code> in your TypeScript file:</p>
-<pre><code class="language-typescript"><span class="hl-3">import</span><span class="hl-1"> </span><span class="hl-4">Validator</span><span class="hl-1"> </span><span class="hl-3">from</span><span class="hl-1"> </span><span class="hl-2">&quot;hform-Validator&quot;</span><span class="hl-1">;</span>
+<pre><code class="language-typescript"><span class="hl-3">import</span><span class="hl-1"> </span><span class="hl-4">Validator</span><span class="hl-1"> </span><span class="hl-3">from</span><span class="hl-1"> </span><span class="hl-2">&quot;hform-validator&quot;</span><span class="hl-1">;</span>
 </code><button>Copy</button></pre>
 <a id="md:usage" class="tsd-anchor"></a><h2><a href="#md:usage">Usage</a></h2><a id="md:defining-a-schema" class="tsd-anchor"></a><h3><a href="#md:defining-a-schema">Defining a Schema</a></h3><p>Start by defining a schema to specify the validation rules for your input object&#39;s properties.</p>
 <a id="md:typescript" class="tsd-anchor"></a><h4><a href="#md:typescript">TypeScript</a></h4><pre><code class="language-typescript"><span class="hl-5">interface</span><span class="hl-1"> </span><span class="hl-6">TestSchema</span><span class="hl-1"> {</span><br/><span class="hl-1">  </span><span class="hl-4">name</span><span class="hl-1">: </span><span class="hl-6">string</span><span class="hl-1">;</span><br/><span class="hl-1">  </span><span class="hl-4">age</span><span class="hl-1">: </span><span class="hl-6">number</span><span class="hl-1">;</span><br/><span class="hl-1">  </span><span class="hl-4">email</span><span class="hl-1">: </span><span class="hl-6">string</span><span class="hl-1">;</span><br/><span class="hl-1">  </span><span class="hl-4">other</span><span class="hl-1">: </span><span class="hl-6">undefined</span><span class="hl-1">;</span><br/><span class="hl-1">  </span><span class="hl-4">sx</span><span class="hl-1">: </span><span class="hl-6">string</span><span class="hl-1">[];</span><br/><span class="hl-1">}</span>
