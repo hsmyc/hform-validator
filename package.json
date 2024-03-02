@@ -1,0 +1,24 @@
+{
+  "name": "h-validator",
+  "version": "0.1.0",
+  "description": "The `h-Validator` is a versatile validation utility designed to be seamlessly integrated into both JavaScript and TypeScript projects.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --minify --sourcemap --outfile=dist/index.js --format=esm && tsc && typedoc --out docs --tsconfig tsconfig.json",
+    "test": "jest --clearCache && jest"
+  },
+  "author": "hsmyc",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.20",
+    "esbuild": "0.20.1",
+    "ts-jest": "^29.1.2",
+    "typedoc": "^0.25.9",
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "entryPoints": ["src/index.ts", "src/validator.ts"],
+  "out": "docs",
+  "includes": "./src",
+  "exclude": ["**/node_modules/**"]
+}

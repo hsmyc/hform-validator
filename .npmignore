@@ -1,0 +1,20 @@
+# Ignore TypeScript source files
+src/
+
+# Ignore test files
+__tests__/
+
+# Ignore configuration files
+jest.config.js
+tsconfig.json
+typedoc.json
+
+# Ignore package lock file
+package-lock.json
+
+# Ignore docs
+docs/
+
+# Ignore other
+other/
+```
