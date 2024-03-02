@@ -110,10 +110,6 @@ Run tests to ensure everything is working as expected:
 npm test
 ```
 
-## Contributing
-
-Contributions are welcome! Please read our contributing guidelines to get started.
-
 ## License
 
 This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details.
@@ -121,3 +117,7 @@ This project is licensed under the ISC License - see the [LICENSE](LICENSE) file
 ## Author
 
 - hsmyc
+
+## Documentation
+
+For more information, please visit the [documentation](https://hsmyc.github.io/hform-validator/)
