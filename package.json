@@ -1,7 +1,7 @@
 {
-  "name": "h-validator",
+  "name": "hform-validator",
   "version": "0.1.0",
-  "description": "The `h-Validator` is a versatile validation utility designed to be seamlessly integrated into both JavaScript and TypeScript projects.",
+  "description": "The `hform-Validator` is a versatile validation utility designed to be seamlessly integrated into both JavaScript and TypeScript projects.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
