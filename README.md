@@ -12,16 +12,16 @@ The `hform-Validator` is a versatile validation utility designed to be seamlessl
 
 ## Installation
 
-Install `hform-Validator` using npm:
+Install `hform-validator` using npm:
 
 ```bash
-npm install hform-Validator
+npm install hform-validator
 ```
 
 Or using yarn:
 
 ```bash
-yarn add hform-Validator
+yarn add hform-validator
 ```
 
 ## Getting Started
@@ -31,7 +31,7 @@ yarn add hform-Validator
 Import `hform-Validator` in your TypeScript file:
 
 ```typescript
-import Validator from "hform-Validator";
+import Validator from "hform-validator";
 ```
 
 ## Usage
