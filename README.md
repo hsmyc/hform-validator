@@ -26,20 +26,12 @@ yarn add h-validator
 
 ## Getting Started
 
-### For TypeScript Projects
+### Importing the Package
 
 Import `h-Validator` in your TypeScript file:
 
 ```typescript
 import Validator from "h-validator";
-```
-
-### For JavaScript Projects
-
-Require `h-Validator` in your JavaScript file:
-
-```javascript
-const Validator = require("h-validator");
 ```
 
 ## Usage

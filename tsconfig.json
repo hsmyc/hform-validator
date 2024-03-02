@@ -1,18 +1,21 @@
 {
   "compilerOptions": {
-    "outDir": "lib",
-    "rootDir": "src",
+    "outDir": "./dist",
+    "rootDir": "./src",
     "noImplicitAny": true,
-    "module": "ES2022",
-    "target": "ES2022",
+    "module": "ESNext",
+    "target": "es6",
     "allowJs": true,
     "checkJs": true,
     "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
-    "moduleResolution": "node"
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationMap": true,
+    "removeComments": false
   },
-  "include": ["src/**/*.ts", "src/__tests__/validator.test.js"],
+  "include": ["src/**/*", "__tests__/index.test.ts", "src/types/types.d.ts"],
   "exclude": ["node_modules", "dist", "lib", "**/*.spec.ts", "build"]
 }

@@ -1,4 +1,4 @@
-import Validator from "/Users/leonidyuce/Documents/personal/h-utils/src/validator";
+import Validator from "../validator";
 
 const priceChecker = (value: number) => {
   return value > 0;
